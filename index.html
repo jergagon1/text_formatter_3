@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Paragraph Sentence Spacing Checker
+    </title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="javascripts/paragraphs.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Paragraph Sentence Spacing Checker</h1>
+      <form class="paragraph-submission-form" action="localhost:3000/paragraphs" method="post">
+        <textarea name="paragraph[original_paragraph]" placeholder="Enter your paragraph here"></textarea><br />
+        <input type="submit" value="Check Spacing">
+      </form>
+      <h2>Your corrected Paragraph:</h2>
+      <p class="formatted-paragraph">
+      </p>
+      <h2>Spaces Removed Shown with *</h2>
+      <p class="meta-paragraph">
+      </p>
+    </div>
+  </body>
+</html>
