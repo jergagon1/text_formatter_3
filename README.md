@@ -9,7 +9,11 @@ Convert a paragraph of text with a variable number of spaces after a period to h
 1. Clone text_formatter_2 rails API
 2. Run text_formatter_2 on default port localhost:3000
 3. Clone this repo.
-4. Navigate to app root and use python web server to run:
+4. Navigate to app root and use a Ruby or python web server to run:
 
+
+`ruby -run -e httpd . -p 8888`
+
+or
 
 `python -m SimpleHTTPServer 8888`
